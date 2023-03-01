@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+   
+
+}
+.header{ background-image: url(/marek-piwnicki-ooxzy4JN6gw-unsplash\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+}
+.material{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: aliceblue;
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 4vmax; */
+
+}
+
+#minimal{
+    font-size: 80px;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+#desing{
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+.ri-star-fill{
+    font-size: 8px;
+}
+.ri-star-s-fill{
+    font-size: 20px;
+}#year{
+    letter-spacing: 5px;
+}
+.header2{
+    height: 100%;
+    width: 100%;
+    
+}
+.main-nav{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h5:hover{
+    transform: scale(1.1);
+    transition: 0.25s;
+    padding: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.header2{
+    background-color: gray;
+}
+.left{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1vmax;
+    align-items: center;
+    font-size: small;
+    font-weight: lighter;
+    
+}
+.box{
+    
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.innerBox1{
+    /* background-color: aquamarine; */
+    width: 15%;
+    font-size:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.innerBox1:hover{
+    border: 4px solid black;
+}
+.ri-lightbulb-line{
+    font-size: 50px;
+}
+.ri-pencil-ruler-2-line{
+    font-size: 50px;
+
+}
+.ri-psychotherapy-line{
+    font-size: 50px;
+
+}
+.ri-bar-chart-grouped-line{
+    font-size: 50px;
+
+}
+.box2{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+hr{
+
+    width: 100px;
+    background-color: black;
+    color: black;
+    border: 1px solid black;
+}
+.header3{
+    background-color: ;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(19,18,26);
+}
+.box3{
+    
+    width: 25%;
+    height: 60%;
+}.box4{
+    /* background-color: aquamarine; */
+    width: 50%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* background-image: url(/Find\ the\ best\ global\ talent_.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+img{
+    background-size: cover;
+    
+}
+#button{
+    border-radius: 10px;
+    width: 100px;
+    height: 25px;
+    padding: 1vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#button:hover{
+    transform: scale(1.1);
+    transition: 0.25s;
+    /* color: beige; */
+    background-color: bisque;
+
+}
+
+
+
+
+
